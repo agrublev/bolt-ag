@@ -1,0 +1,19 @@
+node_modules
+*.log
+dist
+coverage/
+!**/__fixtures__/**/node_modules/
+example-2
+.vscode/
+**/.DS_Store
+
+# Project exclude paths
+/src/__fixtures__/nested-workspaces-with-root-dependencies-installed/node_modules/
+/src/__fixtures__/nested-workspaces-with-scoped-package-names/packages/bar/node_modules/
+/src/__fixtures__/nested-workspaces-with-scoped-package-names/packages/foo/node_modules/
+/src/__fixtures__/nested-workspaces-with-scoped-package-names/packages/foo/packages/baz/node_modules/
+/src/__fixtures__/package-with-external-deps-installed/node_modules/
+/src/__fixtures__/package-with-external-deps-installed/packages/bar/node_modules/
+/src/__fixtures__/package-with-external-deps-installed/packages/foo/node_modules/
+/src/__fixtures__/project-with-bins/node_modules/
+/src/__fixtures__/project-with-bins/packages/foo/node_modules/
